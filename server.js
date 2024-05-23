@@ -15,7 +15,7 @@ const port = 4000;
 // middleware
 app.use(express.json());
 app.use(cors({
-  origin: ['https://food-thrillie.netlify.app', 'https://admin-panel-fd.vercel.app'] // Allow requests from both local frontend URLs
+  origin: ['https://food-thrillie.netlify.app', 'https://fd-adminpanel.netlify.app'] // Allow requests from both local frontend URLs
 }));
 
 // db connection
